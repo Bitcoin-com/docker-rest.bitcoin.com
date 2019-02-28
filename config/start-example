@@ -9,7 +9,9 @@ export ZEROMQ_PORT=<full node ZMQ port>
 export NETWORK=testnet #or mainnet
 
 # Insight Server
-export BITCOINCOM_BASEURL=http://<insight server IP>:<insight port>/api/
+#export BITCOINCOM_BASEURL=http://<insight server IP>:<insight port>/api/
+# Bitpays public Insight API
+export BITCOINCOM_BASEURL=https://bch-insight.bitpay.com/api/
 
 # BitDB server
 export BITDB_URL=https://tbitdb.bitcoin.com/

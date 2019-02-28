@@ -14,8 +14,5 @@ export BITCOINCOM_BASEURL=http://<insight server IP>:<insight port>/api/
 # BitDB server
 export BITDB_URL=https://tbitdb.bitcoin.com/
 
-# SLP
-export SLP_VALIDATE_URL=<slp validation server>
-export SLP_VALIDATE_FAILOVER_URL=<failover validation server>
 
 npm start

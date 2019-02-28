@@ -5,7 +5,7 @@ a containerized version of [rest.bitcoin.com](https://github.com/Bitcoin-com/res
 ## Installation
 These directions are geared at Ubuntu 18.04 OS with at least 2GB of RAM,
 and a non-root user with sudo privledges. Before installing this software, you
-need to have a [Wormhole node](https://github.com/christroutner/wormhole-docker)
+need to have a **Bitcoin Cash Full Node**
 and [Insight server](https://github.com/christroutner/insight-docker) to connect
 it to. All three software must be targeted for either testnet or mainnet.
 
@@ -20,10 +20,10 @@ shows how to install Docker on a Ubuntu system.
 
 * Clone this repository:
 
-`git clone https://github.com/christroutner/docker-rest.bitcoin.com && cd docker-rest.bitcoin.com`
+`git clone https://github.com/Bitcoin-com/docker-rest.bitcoin.com && cd docker-rest.bitcoin.com`
 
 * Create a BASH shell script for starting the server, based on the
-[example script file](config/start-example). Fill in the Wormhole node IP address
+[example script file](config/start-example). Fill in the full node IP address
 and login info and the Insight server IP address. Edit the Dockerfile
 to use this file. Note: If you rename the file to either `start-testnet` or
 `start-mainnet` then it will not be saved to Git, thus not exposing the sensitive

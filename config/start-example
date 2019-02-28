@@ -1,14 +1,21 @@
 #!/bin/bash
 
-# My DO Testnet Insight Server
-export RPC_BASEURL=http://<wormhole node IP>:<port>/
+# Full Node
+export RPC_BASEURL=http://<full node IP>:<port>/
 export RPC_PASSWORD=<rpc password>
 export RPC_USERNAME=<rpc login>
-export ZEROMQ_URL=<wormhole node IP>
-export ZEROMQ_PORT=<wormhole node ZMQ port>
+export ZEROMQ_URL=<full node IP>
+export ZEROMQ_PORT=<full node ZMQ port>
 export NETWORK=testnet #or mainnet
 
-# My DO Testnet Insight Server
+# Insight Server
 export BITCOINCOM_BASEURL=http://<insight server IP>:<insight port>/api/
+
+# BitDB server
+export BITDB_URL=https://tbitdb.bitcoin.com/
+
+# SLP
+export SLP_VALIDATE_URL=<slp validation server>
+export SLP_VALIDATE_FAILOVER_URL=<failover validation server>
 
 npm start

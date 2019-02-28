@@ -17,6 +17,6 @@ export BITCOINCOM_BASEURL=https://bch-insight.bitpay.com/api/
 export BITDB_URL=https://tbitdb.bitcoin.com/
 
 # Enable extra enpoints for a non-JS framework
-export NON_JS_FRAMEWORK=true
+#export NON_JS_FRAMEWORK=true
 
 npm start

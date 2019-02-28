@@ -14,7 +14,10 @@ export NETWORK=mainnet #or testnet
 export BITCOINCOM_BASEURL=https://bch-insight.bitpay.com/api/
 
 # BitDB server
+# testnet
 export BITDB_URL=https://tbitdb.bitcoin.com/
+# mainnet
+# export BITDB_URL=https://bitdb.bitcoin.com/
 
 # Enable extra enpoints for a non-JS framework
 #export NON_JS_FRAMEWORK=true

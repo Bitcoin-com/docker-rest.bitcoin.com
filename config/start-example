@@ -6,7 +6,7 @@ export RPC_PASSWORD=<rpc password>
 export RPC_USERNAME=<rpc login>
 export ZEROMQ_URL=<full node IP>
 export ZEROMQ_PORT=<full node ZMQ port>
-export NETWORK=testnet #or mainnet
+export NETWORK=mainnet #or testnet
 
 # Insight Server
 #export BITCOINCOM_BASEURL=http://<insight server IP>:<insight port>/api/
@@ -16,5 +16,7 @@ export BITCOINCOM_BASEURL=https://bch-insight.bitpay.com/api/
 # BitDB server
 export BITDB_URL=https://tbitdb.bitcoin.com/
 
+# Enable extra enpoints for a non-JS framework
+#export NON_JS_FRAMEWORK=true
 
 npm start

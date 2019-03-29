@@ -46,7 +46,7 @@ RUN git clone https://github.com/Bitcoin-com/rest.bitcoin.com
 # Switch to the desired branch. `master` is usually stable,
 # and `stage` has the most up-to-date changes.
 WORKDIR /home/rest/rest.bitcoin.com
-RUN git checkout stage
+#RUN git checkout stage
 # EDIT THE LINE ABOVE TO REFLECT THE BRANCH YOU WANT TO USE
 
 # Install dependencies

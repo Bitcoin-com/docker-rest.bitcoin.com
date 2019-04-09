@@ -5,9 +5,8 @@ a containerized version of [rest.bitcoin.com](https://github.com/Bitcoin-com/res
 ## Installation
 These directions are geared at Ubuntu 18.04 OS with at least 2GB of RAM,
 and a non-root user with sudo privledges. Before installing this software, you
-need to have a **Bitcoin Cash Full Node**
-and [Insight server](https://github.com/christroutner/insight-docker) to connect
-it to. All three software must be targeted for either testnet or mainnet.
+need to have a **Bitcoin Cash Full Node** to connect
+it to. All software components must be targeted for either testnet or mainnet.
 
 
 * It's always a good idea to add
